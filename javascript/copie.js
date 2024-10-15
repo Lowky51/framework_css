@@ -139,3 +139,25 @@ function copierTexte_12() {
     document.execCommand('copy');
     selection.removeAllRanges(); // Désélectionner le texte
 }
+
+function copierTexte_13() {
+    const p = document.getElementById('texteACopier_13');
+    const selection = window.getSelection();
+    const range = document.createRange();
+    range.selectNode(p);
+    selection.removeAllRanges();
+    selection.addRange(range);
+    document.execCommand('copy');
+    selection.removeAllRanges(); // Désélectionner le texte
+}
+
+function copierTexte_14() {
+    const p = document.getElementById('texteACopier_14');
+    const selection = window.getSelection();
+    const range = document.createRange();
+    range.selectNode(p);
+    selection.removeAllRanges();
+    selection.addRange(range);
+    document.execCommand('copy');
+    selection.removeAllRanges(); // Désélectionner le texte
+}

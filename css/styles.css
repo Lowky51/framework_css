@@ -1,0 +1,157 @@
+/*.centrage {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+/*  */
+/* Style The Dropdown Button */
+
+body {
+    background-color: #70A9A1;
+}
+
+.container_1 {
+    border: 7px solid black; padding: 5px;
+    width: 420px;
+    height: 70px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.container_2 {
+    border: 7px solid black; padding: 5px;
+    width: 477px;
+    height: 80px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.container_3 {
+    border: 7px solid black; padding: 5px;
+    width: 370px;
+    height: 200px;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.container_5 {
+    border: 7px solid black; padding: 5px;
+    width: 465px;
+    height: 75px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+.madiv {
+    display: flex;
+    justify-content: center;
+}
+
+.title_secondaire {
+    font-size: 25px; 
+    text-align: center; 
+    margin: 0; 
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.left_contnaire {
+    color: yellowgreen;
+    
+}
+
+.right_contnaire {
+    color: red;
+    
+}
+
+.barre {
+    width: 10px; /* Largeur de la barre */
+    height: 150px; /* Longueur de la barre */
+    background-color: black; /* Couleur de la barre */
+    display: flex;
+    margin: auto;
+    position: relative;
+    
+
+    
+}
+
+.img_copie {
+    cursor: pointer;
+    width: 25px;
+}
+
+.img_copie_2 {
+    cursor: pointer;
+    width: 25px;
+}
+
+.btn {
+    background: rgba(255,255,255,0);
+    border: 0;
+    margin-left: 320px;
+    margin-top: 7px;
+    padding: 0;
+
+}
+
+.btn_2 {
+    background: rgba(255,255,255,0);
+    border: 0;
+    margin-left: 365px;
+    margin-top: -22px;
+    margin-bottom: 20px;
+    padding: 0;
+    display: flex;
+
+}
+
+.btn_3 {
+    background: rgba(255,255,255,0);
+    border: 0;
+    margin-left: 165px;
+    display: flex;
+}
+
+.btn_4 {
+    background: rgba(255,255,255,0);
+    border: 0;
+    margin-left: 420px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    padding: 0;
+    display: flex;
+
+}
+
+
+.btn_blue:hover {
+    background: blue;
+    border-radius: 4px;
+}
+
+
+
+.btn_black:hover {
+    background: black;
+    border-radius: 4px;
+}
+
+.btn_red:hover {
+    background: red;
+    border-radius: 4px;
+}
+
+.btn_green:hover {
+    background: green;
+    border-radius: 4px;
+}
+
+
+
+
+

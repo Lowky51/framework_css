@@ -17,6 +17,7 @@ body {
     height: 70px;
     margin-top: 10px;
     margin-right: 10px;
+    border-radius: 10px;
 }
 
 .container_2 {
@@ -25,6 +26,7 @@ body {
     height: 80px;
     margin-top: 10px;
     margin-right: 10px;
+    border-radius: 10px;
 }
 
 .container_3 {
@@ -34,6 +36,7 @@ body {
     margin-top: 10px;
     margin-right: 10px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .container_5 {
@@ -42,6 +45,7 @@ body {
     height: 75px;
     margin-top: 10px;
     margin-right: 10px;
+    border-radius: 10px;
 }
 
 .container_6 {
@@ -50,6 +54,43 @@ body {
     height: 250px;
     margin-top: 10px;
     margin-right: 10px;
+    border-radius: 10px;
+}
+
+.container_7 {
+    border: 7px solid black; padding: 5px;
+    width: 700px;
+    height: 275px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.container_8 {
+    border: 7px solid black; padding: 5px;
+    width: 670px;
+    height: 200px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.container_9 {
+    border: 7px solid black; padding: 5px;
+    width: 700px;
+    height: 75px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.container_10 {
+    border: 7px solid black; padding: 5px;
+    width: 700px;
+    height: 110px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
 }
 
 
@@ -224,5 +265,9 @@ body {
 .centre_navbar_framework {
     display: flex;
     margin-left: 30px;
+}
+
+.mise_en_page_installation {
+    margin-left: 25%;
 }
 

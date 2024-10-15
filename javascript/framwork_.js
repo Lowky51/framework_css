@@ -19,7 +19,3 @@ var print_pdf = {
     app.print(print_pdf);
   });
 
-function changerCouleur() {
-    const couleur = document.getElementById('couleurInput').value;
-    document.getElementById('texte').style.color = couleur;
-}

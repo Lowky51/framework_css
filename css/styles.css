@@ -12,85 +12,103 @@ body {
 }
 
 .container_1 {
-    border: 7px solid black; padding: 5px;
+    border: 7px solid black;
+    padding: 5px;
     width: 420px;
     height: 70px;
     margin-top: 10px;
     margin-right: 10px;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.15);
 }
 
 .container_2 {
-    border: 7px solid black; padding: 5px;
+    border: 7px solid black;
+    padding: 5px;
     width: 477px;
     height: 80px;
     margin-top: 10px;
     margin-right: 10px;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.15);
 }
 
 .container_3 {
-    border: 7px solid black; padding: 5px;
+    border: 7px solid black;
+    padding: 5px;
     width: 370px;
     height: 200px;
     margin-top: 10px;
     margin-right: 10px;
     text-align: center;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.15);
 }
 
 .container_5 {
-    border: 7px solid black; padding: 5px;
+    border: 7px solid black;
+    padding: 5px;
     width: 465px;
     height: 75px;
     margin-top: 10px;
     margin-right: 10px;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.15);
 }
 
 .container_6 {
-    border: 7px solid black; padding: 5px;
+    border: 7px solid black;
+    padding: 5px;
     width: 600px;
     height: 250px;
     margin-top: 10px;
     margin-right: 10px;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.15);
 }
 
 .container_7 {
-    border: 7px solid black; padding: 5px;
+    border: 7px solid black;
+    padding: 5px;
     width: 700px;
     height: 275px;
     margin-top: 10px;
     margin-right: 10px;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .container_8 {
-    border: 7px solid black; padding: 5px;
+    border: 7px solid black;
+    padding: 5px;
     width: 670px;
     height: 200px;
     margin-top: 10px;
     margin-right: 10px;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 .container_9 {
-    border: 7px solid black; padding: 5px;
+    border: 7px solid black;
+    padding: 5px;
     width: 700px;
     height: 75px;
     margin-top: 10px;
     margin-right: 10px;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .container_10 {
-    border: 7px solid black; padding: 5px;
+    border: 7px solid black;
+    padding: 5px;
     width: 700px;
     height: 110px;
     margin-top: 10px;
     margin-right: 10px;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 
@@ -100,33 +118,36 @@ body {
 }
 
 .title_secondaire {
-    font-size: 25px; 
-    text-align: center; 
-    margin: 0; 
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
     margin-top: 25px;
     font-weight: bold;
 }
 
 .left_contnaire {
     color: yellowgreen;
-    
+
 }
 
 .right_contnaire {
     color: red;
-    
+
 }
 
 .barre {
-    width: 10px; /* Largeur de la barre */
-    height: 150px; /* Longueur de la barre */
-    background-color: black; /* Couleur de la barre */
+    width: 10px;
+    /* Largeur de la barre */
+    height: 150px;
+    /* Longueur de la barre */
+    background-color: black;
+    /* Couleur de la barre */
     display: flex;
     margin: auto;
     position: relative;
-    
 
-    
+
+
 }
 
 .img_copie {
@@ -140,18 +161,18 @@ body {
 }
 
 .btn {
-    background: rgba(255,255,255,0);
+    background: rgba(255, 255, 255, 0);
     border: 0;
-    margin-left: 320px;
+    margin-left: 350px;
     margin-top: 7px;
     padding: 0;
 
 }
 
 .btn_2 {
-    background: rgba(255,255,255,0);
+    background: rgba(255, 255, 255, 0);
     border: 0;
-    margin-left: 365px;
+    margin-left: 390px;
     margin-top: -22px;
     margin-bottom: 20px;
     padding: 0;
@@ -160,16 +181,16 @@ body {
 }
 
 .btn_3 {
-    background: rgba(255,255,255,0);
+    background: rgba(255, 255, 255, 0);
     border: 0;
     margin-left: 165px;
     display: flex;
 }
 
 .btn_4 {
-    background: rgba(255,255,255,0);
+    background: rgba(255, 255, 255, 0);
     border: 0;
-    margin-left: 420px;
+    margin-left: 435px;
     margin-top: -20px;
     margin-bottom: 20px;
     padding: 0;
@@ -178,15 +199,53 @@ body {
 }
 
 .btn_5 {
-    background: rgba(255,255,255,0);
+    background: rgba(255, 255, 255, 0);
     border: 0;
-    margin-left: 550px;
-    margin-top: 5px;
-    margin-bottom: 2px;
+    margin-left: 245px;
+    margin-top: 20px;
+    margin-bottom: -25px;
     padding: 0;
     display: flex;
 
 }
+
+.btn_6 {
+    background: rgba(255, 255, 255, 0);
+    border: 0;
+    margin-left: 650px;
+    margin-top: -35px;
+    margin-bottom: 10px;
+    padding: 0;
+    display: flex;
+
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+}
+
+.btn_6:hover {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+}
+
+.btn_4:hover {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+}
+
+.btn_3:hover {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+}
+
+.btn_5:hover {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+}
+
+
 
 .btn_blue:hover {
     background: blue;
@@ -231,36 +290,37 @@ body {
         top: 0;
         width: 100%;
         height: 55px;
-      }
-      
+    }
+
     li {
         float: left;
-      }
-      
+    }
+
     li a {
         display: block;
         color: white;
         text-align: center;
-        margin-top: 7px;
+        margin-top: 6px;
         padding: 14px 16px;
         text-decoration: none;
-      }
-      
+    }
+
     li a:hover:not(.active) {
         background-color: #111;
-      }
-      
+    }
+
     .green {
         background-color: #40798C;
-      }
-    
-     .right_contnair_navbar {
-        float: right; 
+    }
+
+    .right_contnair_navbar {
+        float: right;
         margin-top: -2.1px;
         margin-right: 5px;
-    } 
     }
-    /* NAVBAR */
+}
+
+/* NAVBAR */
 
 .centre_navbar_framework {
     display: flex;
@@ -269,5 +329,58 @@ body {
 
 .mise_en_page_installation {
     margin-left: 25%;
+}
+
+
+/* DROPDOWN ------------------------ */
+.mainmenubtn {
+    background-color: #0B2027;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 7px;
+    display: flex;
+}
+
+.mainmenubtn:hover {
+    background-color: #111;
+}
+
+.dropdown {
+    position: fixed;
+    display: inline-block;
+
+}
+
+.dropdown-child {
+    display: none;
+    background-color: rgba(64, 121, 140,0.7);
+    min-width: 70px;
+    border-radius: 15px;
+}
+
+.dropdown-child a:hover {
+    background-color: rgba(64, 121, 140,0.7);
+    border-radius: 7px;
+}
+
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+.fleche_bas {
+    width: 20px;
+    margin: -10px;
+    margin-left: 3px;
+    margin-top: -2.8px;
+
 }
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -9,7 +9,8 @@
     <script src="..javascript\framwork_.js"></script>
     <script src="..\javascript\copie.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-    <title>Document</title>
+    <title>Configuration</title>
+    <link rel="icon" type="image/png" href="../img/mini_logo.png">
 </head>
 
 <body class="centrage" style="font-family: Arial, Helvetica, sans-serif; ">
@@ -19,17 +20,36 @@
     <div class="navbar">
         <ul>
             <li><a style="margin-left: 200px;" href="test_css.html">Accueil</a></li>
-            <li><a href="menu_button.html">Bouton</a></li>
-            <li><a href="menu_image.html">Image</a></li>
-            <li><a href="menu_js.html">JavaScript</a></li>
-            <li><a href="menu_navbar.html">Navbar</a></li>
-            <li class="right_contnair_navbar"><a class="green" href="installation.html">Installation</a>
+            <li class="right_contnair_navbar"><a class="green" href="installation.html">Configuration</a>
             </li>
+            <div class="dropdown">
+                <button class="mainmenubtn">CSS <img class="fleche_bas" src="../img/fleche_bas.png" alt=""> </button>
+                </button>
+                <div class="dropdown-child">
+                    <a href="../html/menu_button.html">Bouton</a>
+                    <a href="../html/menu_image.html">Image</a>
+                    <a href="../html/menu_navbar.html">Navbar</a>
+                </div>
+            </div>
+
+            <div style="margin-left: 75px;" class="dropdown">
+                <button class="mainmenubtn">JavaScript <img class="fleche_bas" src="../img/fleche_bas.png" alt="">
+                </button> </button>
+                <div class="dropdown-child">
+                    <a href="../html/menu_js.html">Alerte Windows</a>
+                </div>
+
+
         </ul>
+    </div>
+
+
+
     </div>
 
     <a href="test_css.html"><img style="width: 200px; margin-top: -3px; position: absolute; position: fixed;"
             src="../img/logo_framework.png" alt=""></a>
+
     <!-- NAVBAR -->
     <br><br><br>
     <p class="title_secondaire" style="font-size: 30px;" >COMMENT UTILISER CE FRAMEWORK ?</p>
@@ -39,7 +59,9 @@
         <p style="font-weight: bold; font-size: 20px; " >1.Utilisation du CSS</p>
         <div class="container_9" >
             <p style="font-weight: bold;" >Copier Coller cette ligne dans votre &lt;head></p>
-            <pre>&lt;link rel="stylesheet" href="https://lowky51.github.io/framework_css/css/styles.css"></pre>
+            <button class="btn_6" onclick="copierTexte_16()"><img class="img_copie_2" src="../img/copy_toclip.png"
+                alt=""></button>
+            <pre id="texteACopier_16" >&lt;link rel="stylesheet" href="https://lowky51.github.io/framework_css/css/styles.css"></pre>
         </div>
         <div class="container_7">
             <p style="font-weight: bold;">Comme par exmeple comme ceci :</p>
@@ -67,7 +89,9 @@
         <div class="container_10" >
             <p style="font-weight: bold;" >Copier Coller cette ligne juste avant la fermeture de la balise &lt;/body></p>
             <p style="font-size: 14px; font-weight: bold;" >(Pour des questions d'optimisation du code)</p>
-            <pre>&lt;script src="https://lowky51.github.io/framework_css/javascript/framwork_.js" ></script></pre>
+            <button class="btn_6" onclick="copierTexte_15()"><img class="img_copie_2" src="../img/copy_toclip.png"
+                alt=""></button>
+            <pre id="texteACopier_15" >&lt;script src="https://lowky51.github.io/framework_css/javascript/framwork_.js" ></script></pre>
         </div>
         <div class="container_7">
             <p style="font-weight: bold;">Comme par exmeple comme ceci :</p>

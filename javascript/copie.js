@@ -45,9 +45,6 @@ function copierTexte_4() {
 
 
 
-
-
-
 function copierTexte_5() {
     const p = document.getElementById('texteACopier_5');
     const selection = window.getSelection();
@@ -153,6 +150,28 @@ function copierTexte_13() {
 
 function copierTexte_14() {
     const p = document.getElementById('texteACopier_14');
+    const selection = window.getSelection();
+    const range = document.createRange();
+    range.selectNode(p);
+    selection.removeAllRanges();
+    selection.addRange(range);
+    document.execCommand('copy');
+    selection.removeAllRanges(); // Désélectionner le texte
+}
+
+function copierTexte_15() {
+    const p = document.getElementById('texteACopier_15');
+    const selection = window.getSelection();
+    const range = document.createRange();
+    range.selectNode(p);
+    selection.removeAllRanges();
+    selection.addRange(range);
+    document.execCommand('copy');
+    selection.removeAllRanges(); // Désélectionner le texte
+}
+
+function copierTexte_16() {
+    const p = document.getElementById('texteACopier_16');
     const selection = window.getSelection();
     const range = document.createRange();
     range.selectNode(p);
